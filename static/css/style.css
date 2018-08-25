@@ -1,12 +1,13 @@
 html {
-    background:#018DED url(http://unsplash.it/1500/1000?image=881&blur=50);
-    background-size:cover;
+    
     font-family:'helvetica neue';
     text-align: center;
     font-size: 10px;
   }
 
   body {
+    background:url(bg.jpg);
+    background-size:cover;
     margin: 0;
     font-size: 2rem;
     display:flex;
@@ -40,7 +41,7 @@ html {
   .hand {
     width:50%;
     height:6px;
-    background:black;
+    background:white;
     position: absolute;
     top:50%;
     transform-origin: 100%;
@@ -48,3 +49,7 @@ html {
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
   }
+.no-transition {
+  transition: none;
+  transition-timing-function: none;
+}
