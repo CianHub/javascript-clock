@@ -1,6 +1,6 @@
-# javascript clock face
+# Javascript Clock 
 
-Javascript is a simple web application that displays the time in real time on a javascript clock-face.
+Javascript Clock is a simple web application that displays the time in real time on a javascript clock-face.
 
 ### Design
 
